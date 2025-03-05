@@ -1,2 +1,0 @@
-libgcc
-libstdc++6

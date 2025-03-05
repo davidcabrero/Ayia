@@ -1,5 +1,8 @@
 import streamlit as st
 from crewai import Agent, Task, LLM, Crew
+import os
+
+os.environ["CREWAI_MEMORY_BACKEND"] = "none"
 
 def translate_to_asturian(text):
     modelo = LLM(
